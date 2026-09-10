@@ -1,0 +1,51 @@
+/*
+ * LINE Seed Sans TH
+ * (c) LINE Corporation. SIL Open Font License 1.1, see LICENSE.txt.
+ *
+ * Paths are relative to this file, so the whole family works from any host
+ * that serves the repo as static files, jsDelivr included.
+ */
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("fonts/LINESeedSansTH-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("fonts/LINESeedSansTH-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Declared as a range rather than a single 700: a page asking for 500 or 600
+ * would otherwise get a synthesised bold smeared out of the regular face.
+ */
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("fonts/LINESeedSansTH-Bold.woff2") format("woff2");
+  font-weight: 500 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("fonts/LINESeedSansTH-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LINE Seed Sans TH";
+  src: url("fonts/LINESeedSansTH-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
